@@ -7,5 +7,5 @@ function terceira() {
   document.getElementById("terceira").classList.remove("hide")
 }
 function redirect() {
-  location.href = atob('aHR0cHM6Ly9ob21icmVhbGZhLm9ubGluZS9scC9pbmRleC5odG1s')
+  location.href = atob('aHR0cHM6Ly9ob21icmVwb3RlbmNpYS5vbmxpbmUvdnNsMQ==')
 }
