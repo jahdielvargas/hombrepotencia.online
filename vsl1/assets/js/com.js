@@ -39,11 +39,11 @@ $('like').on('click', function() {
     if ($(this).hasClass('liked')) {
         $(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text(parseInt($(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text()) - 1)
         $(this).removeClass('liked')
-        $(this).text('Curtir')
+        $(this).text('Me gusta')
     } else {
         $(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text(parseInt($(this).parents('.fb-comments-wrapper, .fb-comments-reply-wrapper').find('likes').text()) + 1)
         $(this).addClass('liked')
-        $(this).text('Descurtir')
+        $(this).text('Me gusta')
     }
 })
 $('reply').on('click', function() {
