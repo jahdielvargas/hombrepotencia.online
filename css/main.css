@@ -1620,8 +1620,8 @@ section.quiz .questions .custom_box.selected{border:none;}
 
     section.quiz .progress .half,
     section.quiz .progress .half.last {
-        display: block;
-        margin: 0 0 20px;
+        display: inline-block;
+        margin: 0 10px;
     }
 
     section.main {
