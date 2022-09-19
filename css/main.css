@@ -1618,10 +1618,14 @@ section.quiz .questions .custom_box.selected{border:none;}
         width: 100%;
     }
 
-    section.quiz .progress .half,
+    section.quiz .progress .half {
+        display: inline-block;
+        margin: 0 0 20px;
+    }
+
     section.quiz .progress .half.last {
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 0 0 10px;
     }
 
     section.main {
