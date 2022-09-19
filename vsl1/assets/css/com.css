@@ -241,6 +241,9 @@ tr {
   .video-player {
     margin-top: 0 !important;
   }
+  .my-4 {
+    font-size: 24px;
+  }
 }
 
 .a-btn {
